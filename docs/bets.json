@@ -79,20 +79,34 @@
     
     "BundesLiga" :{ 
         "Logo" : "BundesLiga.png",
-            "Games" : 
+         "Games" : [
             {
                 "Id" : 1,
-                "Home" : "FC Bayern Munchen",
-                "Away" : "Borrusia Dortmund",
-                "HomeEmblem" : "bay.png",
-                "AwayEmblem" : "drtm.png",
+                "Home" : "FC Brugge",
+                "Away" : "FC Antwerp",
+                "HomeEmblem" : "fcb.png",
+                "AwayEmblem" : "antw.png",
                 "Quote": {
                     "Win":1.2,
                     "Draw":1.1,
                     "Lose":1.8
                     },
-                "Score" : "1-0"
+                "Score" : "2-0"
             },
+            {
+                "Id" : 2,
+                "Home" : "AA Gent",
+                "Away" : "RSC Anderlecht",
+                "HomeEmblem" : "gent.png",
+                "AwayEmblem" : "and.png",
+                "Quote": {
+                    "Win":1.2,
+                    "Draw":1.1,
+                    "Lose":1.8
+                    },
+                "Score" : "4-0"
+            }
+        ]
     },
     
     "ChampionsLeague" : {
