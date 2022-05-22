@@ -79,7 +79,7 @@
     
     "BundesLiga" :{ 
         "Logo" : "BundesLiga.png",
-            "Games" : [
+            "Games" : 
             {
                 "Id" : 1,
                 "Home" : "FC Bayern Munchen",
@@ -93,7 +93,6 @@
                     },
                 "Score" : "1-0"
             },
-        ]
     },
     
     "ChampionsLeague" : {
