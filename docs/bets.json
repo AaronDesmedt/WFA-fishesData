@@ -1,4 +1,4 @@
-[{
+{
     "SerieA" :{    
         "Logo" : "SerieA.png",
         "Games" : [
@@ -8,7 +8,7 @@
             "Away" : "Inter",
             "HomeEmblem" : "juve.png",
             "AwayEmblem" : "Inter.png",
-            "Outcome": 
+            "Quote": 
                 {
                 "Win":1.2,
                 "Draw":1.1,
@@ -22,7 +22,7 @@
             "Away" : "Milan",
             "HomeEmblem" : "napoli.png",
             "AwayEmblem" : "milan.png",
-            "Outcome": {
+            "Quote": {
                 "Win":1.2,
                 "Draw":1.1,
                 "Lose":1.8
@@ -35,7 +35,7 @@
             "Away" : "Pescara",
             "HomeEmblem" : "fiore.png",
             "AwayEmblem" : "pesca.png",
-            "Outcome": {
+            "Quote": {
                 "Win":1.2,
                 "Draw":1.1,
                 "Lose":1.8
@@ -54,7 +54,7 @@
                 "Away" : "FC Antwerp",
                 "HomeEmblem" : "fcb.png",
                 "AwayEmblem" : "antw.png",
-                "Outcome": {
+                "Quote": {
                     "Win":1.2,
                     "Draw":1.1,
                     "Lose":1.8
@@ -67,7 +67,7 @@
                 "Away" : "RSC Anderlecht",
                 "HomeEmblem" : "gent.png",
                 "AwayEmblem" : "and.png",
-                "Outcome": {
+                "Quote": {
                     "Win":1.2,
                     "Draw":1.1,
                     "Lose":1.8
@@ -78,20 +78,49 @@
     },
     "BundesLiga" :{ 
     "Logo" : "BundesLiga.png",
-    "Games" : {
+    "Games" : [
+        {
         "Id" : 1,
-        "Home" : "FC Bayern Munchen",
-        "Away" : "Borussia Dortmund",
-        "HomeEmblem" : "bay.png",
-        "AwayEmblem" : "drtm.png",
-        "Outcome": {
+        "Home" : "Juventus",
+        "Away" : "Inter",
+        "HomeEmblem" : "juve.png",
+        "AwayEmblem" : "Inter.png",
+        "Quote": 
+            {
             "Win":1.2,
             "Draw":1.1,
             "Lose":1.8
             },
         "Score" : "1-0"
-    }
-    },
+        },
+        {
+        "Id" : 2,
+        "Home" : "Napoli",
+        "Away" : "Milan",
+        "HomeEmblem" : "napoli.png",
+        "AwayEmblem" : "milan.png",
+        "Quote": {
+            "Win":1.2,
+            "Draw":1.1,
+            "Lose":1.8
+            },
+        "Score" : "2-2"
+        },
+        {
+        "Id" : 3,
+        "Home" : "Fiorentina",
+        "Away" : "Pescara",
+        "HomeEmblem" : "fiore.png",
+        "AwayEmblem" : "pesca.png",
+        "Quote": {
+            "Win":1.2,
+            "Draw":1.1,
+            "Lose":1.8
+            },
+        "Score" : "0-1"
+        }
+    ]
+},
     "ChampionsLeague" : {
         "Logo" : "CL.png",
         "Games": [{
@@ -100,7 +129,7 @@
             "Away" : "Juventus",
             "HomeEmblem" : "barca.png",
             "AwayEmblem" : "juve.png",
-            "Outcome": {
+            "Quote": {
                 "Win":1.2,
                 "Draw":1.1,
                 "Lose":1.8
@@ -113,7 +142,7 @@
             "Away" : "Paris St-Germain",
             "HomeEmblem" : "real.png",
             "AwayEmblem" : "psg.png",
-            "Outcome": {
+            "Quote": {
                 "Win":1.2,
                 "Draw":1.1,
                 "Lose":1.8
@@ -121,4 +150,4 @@
             "Score" : "0-2"
         }]
     }
-}]
+}
