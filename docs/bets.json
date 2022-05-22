@@ -77,38 +77,6 @@
         ]
     },
     
-    "BundesLiga" :{ 
-        "Logo" : "BundesLiga.png",
-         "Games" : [
-            {
-                "Id" : 1,
-                "Home" : "FC Brugge",
-                "Away" : "FC Antwerp",
-                "HomeEmblem" : "fcb.png",
-                "AwayEmblem" : "antw.png",
-                "Quote": {
-                    "Win":1.2,
-                    "Draw":1.1,
-                    "Lose":1.8
-                    },
-                "Score" : "2-0"
-            },
-            {
-                "Id" : 2,
-                "Home" : "AA Gent",
-                "Away" : "RSC Anderlecht",
-                "HomeEmblem" : "gent.png",
-                "AwayEmblem" : "and.png",
-                "Quote": {
-                    "Win":1.2,
-                    "Draw":1.1,
-                    "Lose":1.8
-                    },
-                "Score" : "4-0"
-            }
-        ]
-    },
-    
     "ChampionsLeague" : {
         "Logo" : "CL.png",
         "Games": [{
