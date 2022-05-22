@@ -77,20 +77,20 @@
         ]
     },
     "BundesLiga" :{ 
-    "Logo" : "BundesLiga.png",
-    "Games" : {
-        "Id" : 1,
-        "Home" : "FC Bayern Munchen",
-        "Away" : "Borussia Dortmund",
-        "HomeEmblem" : "bay.png",
-        "AwayEmblem" : "drtm.png",
-        "Quote": {
-            "Win":1.2,
-            "Draw":1.1,
-            "Lose":1.8
-            },
-        "Score" : "1-0"
-    }
+        "Logo" : "BundesLiga.png",
+        "Games" : {
+            "Id" : 1,
+            "Home" : "FC Bayern Munchen",
+            "Away" : "Borussia Dortmund",
+            "HomeEmblem" : "bay.png",
+            "AwayEmblem" : "drtm.png",
+            "Quote": {
+                "Win":1.2,
+                "Draw":1.1,
+                "Lose":1.8
+                },
+            "Score" : "1-0"
+        }
     },
     "ChampionsLeague" : {
         "Logo" : "CL.png",
